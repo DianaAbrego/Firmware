@@ -3,10 +3,10 @@
 #include <driver/ledc.h>
 
 // ---------- Configuración WiFi ----------
-//const char* ssid = "Robotat";
-//const char* password = "iemtbmcit116";
-const char* ssid = "Nexxt_AF9F54";
-const char* password =  "Cocina_Zona6";
+const char* ssid = "Robotat";
+const char* password = "iemtbmcit116";
+//const char* ssid = "Nexxt_AF9F54";
+//const char* password =  "Cocina_Zona6";
 WiFiServer wifiServer(9090);
 
 // ---------- PWM Servo ----------
@@ -70,6 +70,7 @@ void loop() {
             // Ya tenemos el mensaje completo
             Serial.println("Mensaje CBOR completo recibido. Enviando a Serial2...");
             Serial2.write(cborBuffer, 11);
+            
             cborIndex = 0;
             modoMotores = false;
           }
