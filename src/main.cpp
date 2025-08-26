@@ -17,6 +17,7 @@ WiFiServer wifiServer(9090);
 #define SERVO_ABIERTO  307  // PWM para abrir
 #define SERVO_CERRADO  366  // PWM para cerrar 80
 
+
 void initPWM() {
   ledcSetup(PWM_CHANNEL, PWM_FREQ, PWM_RES);
   ledcAttachPin(SERVO_PIN, PWM_CHANNEL);
