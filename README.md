@@ -6,11 +6,11 @@ Este repositorio contiene el **firmware diseñado para el microcontrolador ESP32
 
 ## 📄 Archivos Principales
 
-- **`main.cpp`**  (./scr/mainConexionPololu.txt)  
+- [**`src/main.cpp`**](./src/main.cpp)  
   Este archivo contiene el **firmware principal** que permite al Pololu 3Pi+ **controlar simultáneamente las velocidades de las ruedas y la pinza**.  
   Es el código que debe cargarse al **ESP32** para ejecutar ambas funciones de forma integrada.
 
-- **`mainConexionPololu.txt`**  (./mainConexionPololu.txt)  
+- [**`mainConexionPololu.txt`**](./mainConexionPololu.txt)   
   Contiene una **versión simplificada del código**, utilizada únicamente para **controlar las velocidades del robot**, sin incluir el control de la pinza.  
   Este archivo puede emplearse para pruebas o validaciones iniciales de comunicación entre el ESP32 y el Pololu 3Pi+.
 
