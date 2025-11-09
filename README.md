@@ -1,6 +1,6 @@
 # ⚙️ Firmware para el Control del Robot Pololu 3Pi+ con Pinza
 
-Este repositorio contiene el **firmware diseñado para el microcontrolador ESP32-WROOM-32D**, utilizado para integrar el control de movimiento y agarre del robot **Pololu 3Pi+**.
+Este repositorio contiene el **firmware diseñado para el microcontrolador ESP32-WROOM-32D**, utilizado para integrar el control de velocidad para los motores y mover el servomotor para la pinza.
 
 ---
 
