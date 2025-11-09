@@ -5,8 +5,6 @@
 // ---------- Configuración WiFi ----------
 const char* ssid = "Robotat";
 const char* password = "iemtbmcit116";
-//const char* ssid = "Nexxt_AF9F54";
-//const char* password =  "Cocina_Zona6";
 WiFiServer wifiServer(9090);
 
 // ---------- PWM Servo ----------
@@ -115,3 +113,4 @@ void loop() {
     Serial.println("Client disconnected");
   }
 }
+
