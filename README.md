@@ -20,6 +20,9 @@ Este repositorio contiene el **firmware diseñado para el microcontrolador ESP32
 El firmware fue desarrollado utilizando el entorno **Visual Studio Code**, mediante la extensión **PlatformIO**.  
 Este entorno facilita la gestión de librerías, la compilación del código y la carga del programa al microcontrolador **ESP32-WROOM-32D**.  
 Se recomienda mantener la misma configuración de entorno para asegurar la compatibilidad del proyecto.
+Además, se incluye un archivo **ZIP compacto** con todo el proyecto completo.  
+Para utilizarlo, basta con **descomprimir el archivo** y **abrir la carpeta como un nuevo proyecto en Visual Studio Code**.  
+Dentro de la estructura del proyecto, el archivo principal (`main.cpp`) se encuentra en la carpeta `/src`.
 
 ## ⚠️ Consideraciones Importantes
 
