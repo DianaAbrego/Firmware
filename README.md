@@ -15,6 +15,11 @@ Este repositorio contiene el **firmware diseñado para el microcontrolador ESP32
   Este archivo puede emplearse para pruebas o validaciones iniciales de comunicación entre el ESP32 y el Pololu 3Pi+.
 
 ---
+## 🧰 Entorno de Programación
+
+El firmware fue desarrollado utilizando el entorno **Visual Studio Code**, mediante la extensión **PlatformIO**.  
+Este entorno facilita la gestión de librerías, la compilación del código y la carga del programa al microcontrolador **ESP32-WROOM-32D**.  
+Se recomienda mantener la misma configuración de entorno para asegurar la compatibilidad del proyecto.
 
 ## ⚠️ Consideraciones Importantes
 
